@@ -201,29 +201,29 @@ var altura float32 = 1.70
 // func main(){
 	//  copia_punteros(altura)
     
-//  fmt.Println("La altura es:", altura, " mts")
-//  fmt.Println("la altura es:", copia_punteros(altura), " pies")
-//  fmt.Println("La altura nueva es: ", altura, " mts")
-//  }
+//   fmt.Println("La altura es:", altura, " mts")
+//   fmt.Println("la altura es:", copia_punteros(altura), " pies")
+//   fmt.Println("La altura nueva es: ", altura, " mts")
+//   }
 // ejercicio 21
 
 
 // 	const pi float64 = 3.14159
-//  func constante(){
-//  fmt.Println("El valor de pi es:", pi, "mts")
-//  }
+  func constante(){
+  fmt.Println("El valor de pi es:", pi, "mts")
+  }
 // func main (){
 //      constante()
 // }
 
 
-// const pi = 3.14159
-// func uso_funciones(radio float64) float64{
-	// return pi * radio * radio 
-// }
-// func radio(){
-// 	fmt.Println("El area de un circulo cuyo radio es 3 es: ", uso_funciones(5))
-// }
+//  const pi = 3.14159
+func uso_funciones(radio float64) float64{
+	 return pi * radio * radio 
+ }
+ func radio(){
+ 	fmt.Println("El area de un circulo cuyo radio es 3 es: ", uso_funciones(5))
+}
 
 // func main(){
 //      radio()
