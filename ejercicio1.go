@@ -150,9 +150,9 @@ func Declaracion_variables() {
     fmt.Println("Estudiante: ", estudiante)
 }
 
-  func main() {
-	 Declaracion_variables()
-}
+//   func main() {
+// 	 Declaracion_variables()
+// }
 // ejercicio 18 
 var var1 = "Nivel 1"
  
