@@ -74,3 +74,20 @@ func circulo1(radio float64) (area func() float64, perimetro func() float64) {
 // 	fmt.Println("El perimetro del circulo es", perimetro())
 
 // }
+
+// Ejercicio 32
+
+func operaciones_aricmeticas(){
+	x, y := -5, 10
+    
+	if x > 0 || y > 0{
+		fmt.Println("ambas funciones son verdaderas")
+	}else{
+       fmt.Println("no se cumple el AND")
+	}
+}
+// func main(){
+// 	operaciones_aricmeticas()
+// }
+
+
